@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+/* Aplicación de operadores. */
+int main(void)
+{
+    int i = 5, j = 4, k, l, m;
+    k = !i * 3 + --j * 2 - 3;
+    printf("\nEl valor de k es: %d", k);
+    l = !(!i || 1 && 0) && 1; // Corregido el operador lógico && y la negación !
+    printf("\nEl valor de l es: %d", l);
+    m = (k = (!(12 > 10)), j = (10 * 0) && k, (!(k && j))); // Corregidos operadores lógicos y de asignación
+    printf("\nEl valor de m es: %d", m);
+
+    return 0;
+}
