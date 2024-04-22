@@ -1,0 +1,3 @@
+Cantidad del préstamo: 1000.00
+Tasa de interés anual: 2.00
+Plazo del préstamo en meses: 12
